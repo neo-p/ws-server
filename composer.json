@@ -1,8 +1,8 @@
 {
     "name": "neo-p/ws-server",
     "description": "ws-server",
-    "minimum-stability": "dev",
-    "version": "0.0.1",
+    "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "6xiaowu9",
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "neo-p/framework": "^0.0.1",
         "neo-p/process": "^0.0.1",
         "neo-p/server": "^0.0.1",
@@ -17,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NeoP\\WebSocket\\Server": "src/"
+            "NeoP\\WebSocket\\Server\\": "src/"
         }
     }
 }
